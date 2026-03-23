@@ -8,6 +8,7 @@
   <artifactId>smsd</artifactId>
   <version>2.2.5</version>
   <name>SMSD</name>
+  <packaging>pom</packaging>
   <description>NCATS Fork of Small Molecule Subgraph Detector (SMSD) - A Maximum Common Subgraph (MCS) and substructure generation library for chemoinformatics</description>
   <licenses>
     <license>
@@ -16,6 +17,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  <modules>
+        <module>core</module>
+        <module>exec</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
